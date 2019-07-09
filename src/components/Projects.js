@@ -34,9 +34,9 @@ Dynamic Full Stack Website</ProjectAttributes>
             </p>
             </div>
             <div>
-            <ProjectTitle><a href="http://businesspage-staticsite.surge.sh/" target="_blank">Bstreetshoes Static Web Page</a></ProjectTitle>
-            <ProjectAttributes>HTML, JavaScript, CSS, React:<br/>Static Website</ProjectAttributes>
-            <p>"Bstreetshoes Business Page" represents a unique user interface, constructed with React.  This page demonstrates an ability to utilize fun styling transformations in CSS!  
+            <ProjectTitle><a href="http://businesspage-staticsite.surge.sh/" target="_blank">Satoko Ceramics</a></ProjectTitle>
+            <ProjectAttributes>JavaScript, CSS, React, MongoDB, Express, Bcrypt:<br/>Online Gallery</ProjectAttributes>
+            <p>This web page represents a unique user interface, the front end of which is constructed with React and the back end with MongoDB.  This page demonstrates an ability to utilize styling transformations, RESTful API requests from the front end, and user authenrication!  
             </p>
             </div>
         </ProjectsContainer>
