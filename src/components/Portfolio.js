@@ -8,14 +8,14 @@ import { LayoutContainer, LayoutContainer2, ToggleButton } from '../elements/ind
 
 const Portfolio = () => {
     return (
-        <Toggle render={({on, toggler}) => 
-            !on ?
+        <Toggle render={({theme, themeToggler}) => 
+            !theme ?
             <LayoutContainer>
                 <Experiment />
                 <Header />
                 <SkillSet />
                 <Projects />
-                <ToggleButton onClick={toggler}>∆ color theme</ToggleButton>
+                <ToggleButton onClick={themeToggler}>∆ color theme</ToggleButton>
              </LayoutContainer>
             :
             <LayoutContainer2>
@@ -23,7 +23,7 @@ const Portfolio = () => {
                 <Header />
                 <SkillSet />
                 <Projects />
-                <ToggleButton onClick={toggler}>∆ dark theme</ToggleButton>
+                <ToggleButton onClick={themeToggler}>∆ dark theme</ToggleButton>
             </LayoutContainer2>
         }/>
     );

@@ -4,7 +4,8 @@ class Toggle extends Component{
     constructor(){
         super()
         this.state = {
-            on: false
+            on: false,
+            theme: false
         }
     }
 
@@ -14,8 +15,14 @@ class Toggle extends Component{
         }))
     }
 
+    themeToggler = () => {
+        this.setState(ps => ({
+            theme: !ps.theme
+        }))
+    }
+
     render(){
-        return this.props.render({ on: this.state.on, toggler: this.toggler })
+        return this.props.render({ ...this.state, toggler: this.toggler, themeToggler: this.themeToggler })
     }
 }
 

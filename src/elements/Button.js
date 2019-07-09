@@ -15,3 +15,14 @@ export const ToggleButton = styled.button`
         padding: 5px;
     }
 `;
+
+export const PEButton = styled(ToggleButton)`
+    width: 10%;
+    left: 0;
+    position: absolute;
+    border: none;
+    &:hover{
+        opacity: 0.65;
+        cursor: pointer;
+    }
+`;

@@ -7,7 +7,7 @@ const Header = () => {
             <StyledHeader style={{borderBottom: '1px solid navajowhite'}}>Emma Barash</StyledHeader>
             <WebDev>Web Developer</WebDev>
             <FrontEnd>Front End:</FrontEnd>
-            <AbilityList>HTML, JavaScript, CSS, React</AbilityList><br/>
+            <AbilityList>HTML, JavaScript, CSS, React, Vue</AbilityList><br/>
             <BackEnd>Back End:</BackEnd>
             <AbilityListTwo>MongoDB, Node.JS, Express</AbilityListTwo>
         </HeaderItem>

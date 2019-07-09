@@ -41,7 +41,7 @@ export const BackEnd = styled(StyledHeader)`
 export const AbilityListTwo = styled(StyledHeader)`
     font-size: 20px;
     display: inline;
-    margin-right: 60px;
+    margin-right: 115px;
     @media(max-width: 740px){
         font-size: 20px;
     }
