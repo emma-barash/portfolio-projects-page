@@ -1,5 +1,6 @@
 import React from 'react';
 import Bounty from '../elements/photos/BountyHunter.png';
+import Tasker from '../elements/photos/Tasker.png';
 import { 
     ProjectsContainer, 
     ProjectList, 
@@ -13,11 +14,13 @@ const Projects = () => {
         <ProjectsContainer>
             <div>
             <ProjectList>Projects</ProjectList><br/>
-            <ProjectTitle><a href="http://emmabarash-zencss.surge.sh/" target="_blank">CSS ZEN GARDEN</a></ProjectTitle>
-            <ProjectAttributes>HTML, CSS: Static Website.</ProjectAttributes> 
-            <p>This project showcases design-replication of an official "CSS Zen Garden" website.
-             The objective is to demonstrate a proficient understanding of CSS implementation with the 
-             intention of closely replicating another's artistic vision.
+            <ProjectTitle><a href="http://emmabarash-zencss.surge.sh/" target="_blank">Task'r</a></ProjectTitle>
+            <img className="bountyImg" src={ Tasker } alt="Tasker Screen Shot"/>
+            <a href="https://github.com/emma-barash/bounty-hunter-first-mongodb" target="_blank"><button class="gbutton">github repo</button></a>
+            <a href="https://taskr-saurus.herokuapp.com/" target="_blank"><button class="lbutton">link</button></a>
+            <ProjectAttributes>MongoDB, React, Express, JavaScript, Node.js:
+Dynamic Full Stack Website</ProjectAttributes> 
+            <p>"Task'r" is a web-application designed to help children learn executive functioning by providing task-boards to help organize chores. Within my team of three, I am responsible for front-end API requests, a modest portion of the design, and page-organization. This was my first collaborative experience, which included daily stand-ups, a collaborative GIT repository, and responsibility for pulling one's own weight. In my opionion, this project was successful: we all learned to use Styled-Components in React and the application's completion has left us excited for future group projects!
             </p>
             </div>
             <div className="centerProject">
