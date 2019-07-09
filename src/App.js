@@ -8,7 +8,7 @@ const App = () => {
     return (
         <Switch>
             {/* <Route exact path='/' component={CoverPage}/> */}
-            <Route exact path='/main' component={Portfolio}/>
+            <Route exact path='/' component={Portfolio}/>
         </Switch>
     );
 };
