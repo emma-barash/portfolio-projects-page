@@ -19,6 +19,10 @@ const ExperienceDetails = () => {
                 <p>I have mentored, demonstrated leadership, take direction and constructive critisism well, and have been a successful team player. My 
                     approach to any form of collaborative process includes ensuring everyone's opinion is carefully acknowledged.  
                 </p>
+                <ProjectList>Other Skills</ProjectList>
+                <p>
+                Git, JSON, Java, Adobe Photoshop, PaySimple, Mentoring, Mongoose
+                </p><br/>
                 <ProjectList>V School, Salt Lake City, UT — Teaching Assistant</ProjectList>
                 <p>
                 • Helping students become familiar with Vanilla JavaScript, HTML, and CSS,  navigate debugging their own and each others’ code.<br/>
@@ -34,6 +38,22 @@ const ExperienceDetails = () => {
                 • Web-Search Optimization Updates & Implementation.<br/> 
                 • Outreach to other companies for promotional collaborations. - Setting up events at TOMs; successfully initiated a contract with Jimmy Choo.<br/> 
                 • Handled Last-Minute Product Changes: discussed changes with customers while making sure the product is delivered on schedule.<br/> 
+                </p>
+                <ProjectTitle>Accomplishments in Education</ProjectTitle>
+                <p>
+                Full Stack JavaScript Web Development Certificate<br/>
+                Participant, G2G3 DevOps simulation<br/>
+                Secretary, Brandeis Robotics Club<br/>
+                Member, Brandeis Automation Lab<br/>
+                Member, Brandeis Maker Lab<br/>
+                Member, Brandeis Equestrian Club<br/>
+                Robotics Club:  Design Engineer; worked with a team of five people to create an underwater robot.<br/>  Nationals: ranked 46 out of 120 at Georgia Tech.<br/>
+                </p>
+                <ProjectTitle>Volunteering</ProjectTitle>
+                <p>
+                - V School<br/>
+                - Ukiah Trail Group: Participated in construction and maintenance of local trails. <br/> 
+                - Ukiah Valley Medical Center: Assisted with inpatient physical therapy and outpatient therapy. Supervised outpatients on the Ukiah Trail Group trails.<br/>
                 </p>
             </ProjectsContainer>
     );
