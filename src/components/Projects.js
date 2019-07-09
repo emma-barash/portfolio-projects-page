@@ -39,7 +39,7 @@ Dynamic Full Stack Website</ProjectAttributes>
             <img className="bountyImg" src={ Satoko } alt="Satoko Ceramics Screen Shot"/>
             <a href="https://github.com/emma-barash/new-satoko-site" target="_blank"><button class="gbutton">github repo</button></a>
             <ProjectAttributes>JavaScript, CSS, React, MongoDB, Express, Bcrypt:<br/>Online Gallery</ProjectAttributes>
-            <p>This web page represents a unique user interface, the front end of which is constructed with React and the back end with MongoDB.  This page demonstrates an ability to utilize styling transformations, RESTful API requests from the front end, and user authenrication!  
+            <p>This web page represents a unique user interface, the front end of which is constructed with React and the back end with MongoDB.  This page demonstrates an ability to utilize styling transformations, RESTful API requests from the front end, and user authenication!  
             </p>
             </div>
         </ProjectsContainer>
