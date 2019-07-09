@@ -16,7 +16,7 @@ const Projects = () => {
             <ProjectList>Projects</ProjectList><br/>
             <ProjectTitle><a href="http://emmabarash-zencss.surge.sh/" target="_blank">Task'r</a></ProjectTitle>
             <img className="bountyImg" src={ Tasker } alt="Tasker Screen Shot"/>
-            <a href="https://github.com/emma-barash/bounty-hunter-first-mongodb" target="_blank"><button class="gbutton">github repo</button></a>
+            <a href="https://github.com/emma-barash/taskr-group" target="_blank"><button class="gbutton">github repo</button></a>
             <a href="https://taskr-saurus.herokuapp.com/" target="_blank"><button class="lbutton">link</button></a>
             <ProjectAttributes>MongoDB, React, Express, JavaScript, Node.js:
 Dynamic Full Stack Website</ProjectAttributes> 
