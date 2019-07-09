@@ -2,7 +2,7 @@ import React from 'react';
 import Bounty from '../elements/photos/BountyHunter.png';
 import Tasker from '../elements/photos/Tasker.png';
 import Satoko from '../elements/photos/Satoko.png';
-import Toggle from '../shared/Toggle.js';
+import { Link } from 'react-router-dom';
 import { 
     ProjectsContainer, 
     ProjectList, 
@@ -13,11 +13,9 @@ import {
 
 const Projects = () => {
     return (
-        <Toggle render={({ on, toggler }) => 
-                !on ? 
                 <ProjectsContainer>
             <div>
-                <PEButton onClick={ toggler }>see experience</PEButton><br/>
+               <Link to="/experience"><PEButton>see experience</PEButton></Link><br/>
             <ProjectList>Projects</ProjectList><br/>
             <ProjectTitle><a href="http://emmabarash-zencss.surge.sh/" target="_blank">Task'r</a></ProjectTitle>
             <img className="bountyImg" src={ Tasker } alt="Tasker Screen Shot"/>
@@ -46,35 +44,7 @@ Dynamic Full Stack Website</ProjectAttributes>
             <p>This web page represents a unique user interface, the front end of which is constructed with React and the back end with MongoDB.  This page demonstrates an ability to utilize styling transformations, RESTful API requests from the front end, and user authenication!  
             </p>
             </div>
-        </ProjectsContainer>
-            :
-            <ProjectsContainer>
-                <PEButton onClick={ toggler }>see projects</PEButton><br/>
-                <ProjectList>Experience</ProjectList><br/>
-                <ProjectTitle>Qualifications</ProjectTitle>
-                <ProjectAttributes>Certification in Full Stack Web Development - V School, 2019</ProjectAttributes>
-                <p>I have mentored, demonstrated leadership, take direction and constructive critisism well, and have been a successful team player. My 
-                    approach to any form of collaborative process includes ensuring everyone's opinion is carefully acknowledged.  
-                </p>
-                <ProjectList>V School, Salt Lake City, UT — Teaching Assistant</ProjectList>
-                <p>
-                • Helping students become familiar with Vanilla JavaScript, HTML, and CSS,  navigate debugging their own and each others’ code.<br/>
-                • Lead groups in learning GIT collaboration, using the command line and the GitHub web application.<br/>
-                • Instructing techniques for using and integrating Mongoose, MongoDB, and Express in full stack React projects, including user authentication.<br/>
-                • Worked with teachers to help diversify explanations for difficult React and JavaScript concepts. <br/>
-                </p><br/>
-                <ProjectTitle>B Street Shoes, Costa Mesa, CA — Product Manager</ProjectTitle>
-                <p>
-                • Task Delegation to a Team of Five Artists. <br/> 
-                • Working in the backend of Shopify, regularly updating the website.<br/> 
-                • Customer Service: spoke with over 150 customers daily.<br/> 
-                • Web-Search Optimization Updates & Implementation.<br/> 
-                • Outreach to other companies for promotional collaborations. - Setting up events at TOMs; successfully initiated a contract with Jimmy Choo.<br/> 
-                • Handled Last-Minute Product Changes: discussed changes with customers while making sure the product is delivered on schedule.<br/> 
-
-                </p>
             </ProjectsContainer>
-            }/>
     );
 };
 
