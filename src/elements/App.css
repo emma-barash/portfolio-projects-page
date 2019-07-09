@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+    font-family: Nova;
+    /* opacity: 0.98; */
+    color: navajowhite;
+    margin: 0;
+}
+@font-face{
+    src: url('../elements/NovaMonoCopy.ttf');
+    font-family: Nova;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    opacity: 0.67;
+}
+
+p{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.bountyImg{
+    width: 350px;
+    height: 220px;
+    margin: auto;
+    border-radius: 20px;
+    padding: 0;
+    border: 2px solid navajowhite;
+    display: block;
+}
+
+.centerProject{
+    text-align: center;
+}
+
+.gbutton{
+    display: inline-block;
+    background-color: transparent;
+    border: none;
+    margin: 20px auto;
+    font-family: Nova;
+    font-size: 20px;
+}
+
+.gbutton:focus{
+    outline: none;
+    cursor: pointer;
+}
+
+.gbutton:hover{
+    cursor: pointer;
+    opacity: 0.67;
+}
+
+.lbutton{
+    display: inline-block;
+    background-color: transparent;
+    border: none;
+    font-family: Nova;
+    font-size: 20px;
+    margin: 20px auto;
+    padding-left: 60px;
+}
+
+.lbutton:focus{
+    outline: none;
+}
+
+.lbutton:hover{
+    cursor: pointer;
+    opacity: 0.67;
+}
