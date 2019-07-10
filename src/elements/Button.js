@@ -21,6 +21,7 @@ export const PEButton = styled(ToggleButton)`
     left: 0;
     position: absolute;
     border: none;
+    font-size: 20px;
     &:hover{
         opacity: 0.65;
         cursor: pointer;
