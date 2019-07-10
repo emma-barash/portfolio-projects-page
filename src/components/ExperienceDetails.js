@@ -17,7 +17,7 @@ const ExperienceDetails = () => {
                 <ProjectTitle>Qualifications</ProjectTitle>
                 <ProjectAttributes>Certification in Full Stack Web Development - V School, 2019</ProjectAttributes>
                 <p>I have mentored, demonstrated leadership, take direction and constructive critisism well, and have been a successful team player. My 
-                    approach to any form of collaborative process includes ensuring everyone's opinion is carefully acknowledged.  
+                    approach to any form of collaborative process includes ensuring everyone's voice is heard, and their opinions carefully acknowledged.  
                 </p>
                 <ProjectList>Other Skills</ProjectList>
                 <p>
