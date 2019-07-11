@@ -5,6 +5,10 @@
     color: navajowhite;
     margin: 0;
 }
+/* @font-face{
+    src: url('../elements/NovaMonoCopy.ttf');
+    font-family: Nova;
+} */
 @font-face{
     src: url('../elements/NovaMonoCopy.ttf');
     font-family: Nova;
